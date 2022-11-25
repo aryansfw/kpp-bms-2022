@@ -32,43 +32,6 @@ section{
     box-sizing: border-box;
 }
 
-.arrow{
-    display: flex;
-    justify-content: flex-end;
-    height: 96px;
-}
-
-.articles #left{
-    content: url('asset/img/LeftArrow.png');
-}
-
-input[type="checkbox"]#left{
-    content: url('asset/img/LeftArrow.png');
-    display: block;
-    -webkit-appearance: none;
-    width: 85px;
-    height: 39px;
-}
-
-/* input[type="checkbox"]#left:active{
-    border-left: 3px solid #FCC72A;
-} */
-
-input[type="checkbox"]#left:checked{
-    content: url('asset/img/LeftArrrowSelected.png');
-}
-
-input[type="checkbox"]#right{
-    content: url('asset/img/RightArrow.png');
-    display: block;
-    -webkit-appearance: none;
-    width: 85px;
-    height: 39px;
-}
-
-input[type="checkbox"]#right:checked{
-    content: url('asset/img/RightArrowSelected.png');
-}
 .cards{
     display: grid;
     justify-content: space-between;
