@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/x-icon" href="asset/img/logo.svg" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,15 +15,12 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <title>TCorner</title>
   </head>
   <body>
+    <div class="overlay"></div>
     <header>
       <a href="#home" class="logo">
         <img src="asset/img/logo.svg" alt="" />
@@ -33,11 +30,19 @@
       <nav>
         <a class="home-link" href="#home">Home<span></span></a>
         <a class="article-link" href="#articles">Articles<span></span></a>
+        <a class="about-link" href="#about">About<span></span></a>
       </nav>
 
-      <a href="#aboutUs" class="about-us-btn">
-        <span>About</span>
-      </a>
+      <div class="btn-box">
+        <div class="toggle-switchmode">
+          <i class="uil uil-sun sun"></i>
+          <i class="uil uil-moon moon"></i>
+        </div>
+        <div class="toggle-openNav">
+          <i class="uil uil-bars toggleOpenBtn"></i>
+          <i class="uil uil-times toggleCloseBtn"></i>
+        </div>
+      </div>
     </header>
 
     <section id="home">
@@ -51,6 +56,8 @@
       </p>
     </section>
 
-    <script src="navbar.js"></script>
+    <section id="articles"></section>
+
+    <script src="js/navbar.js"></script>
   </body>
 </html>
