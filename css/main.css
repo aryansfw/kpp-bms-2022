@@ -6,29 +6,6 @@ body {
     font-family: 'Inter';
 }
 
-/* navbar section */
-.navbar {
-    width: 100%;
-    top: 0;
-    background-color: #756c6c;
-    display: flex;
-    justify-content: center;
-    padding-top: 71px;
-    padding-bottom: 30px;
-    padding-left: 47px;
-    padding-right: 123px;
-    position: sticky;
-    z-index: 999;
-    box-sizing: border-box;
-}
-
-.navbar div {
-    font-style: normal;
-    font-size: 32px;
-    padding: 10px 40px;
-    color: #FFFFFF;
-}
-
 /* articles page section */
 .main {
     display: flex;
@@ -44,11 +21,8 @@ body {
     width: 90%;
     height: 70vh;
     display: flex;
-    /* justify-content: space-around; */
     overflow-y: scroll;
     overflow-x: hidden;
-    /* padding-left: 110px; */
-    /* padding-right: 50px; */
     padding-left: 5.7%;
     padding-right: 2.6%;
     flex-wrap: wrap;
@@ -65,9 +39,6 @@ body {
     font-size: 48px;
     line-height: 58px;
     width: 648px;
-    /* font-size: 300%; */
-    /* line-height: 121%; */
-    /* width: 35%; */
 }
 
 .content span {color: #FCC72A;}
@@ -86,7 +57,6 @@ body {
     width: 100%;
     flex-direction: row-reverse;
     justify-content: space-between;
-    /* padding: 20%; */
 }
 
 .temp > div{
@@ -111,9 +81,6 @@ body {
     border-radius: 27px;
     width: 313px;
     height: 480px;
-    /* position: fixed; */
-    /* left: 1420px;
-    top: 436px; */
 }
 
 @media screen and (max-width: 1000px) {
