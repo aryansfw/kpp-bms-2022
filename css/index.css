@@ -83,14 +83,11 @@ body.light header .toggle-switchmode .moon {
     align-items: center;
 }
 
-.container-arrows {
-    display: flex;
-    flex-direction: row;    
-    align-self: flex-end;
-}
-
-.container-arrows img {
-    margin: 0px 5px;
+.container-articles h1 {
+    color: #FCC72A;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1px;
 }
 
 .container-cards {
@@ -152,6 +149,20 @@ body.light header .toggle-switchmode .moon {
 .arrow {
     margin-left: 14px;
     content: url("../asset/img/arrow.svg");
+}
+
+.card:hover {
+    background-color: #FF407C;
+}
+
+.card:hover > .read-more > span {
+    transition: none;
+    color: #18171C;
+}
+
+.card:hover > .read-more > .arrow {
+    content: url("../asset/img/arrow-selected.svg");
+    transition: 0.5;
 }
 
 .container-bars {
