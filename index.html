@@ -1,131 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <link rel="icon" type="image/x-icon" href="asset/img/logo.svg" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600700&family=Poppins:wght@200;300;400;500;600&display=swap"
-    rel="stylesheet"
-    />
-    <link
-    rel="stylesheet"
-    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <title>TCorner</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="overlay"></div>
     <header>
-        <a href="#home" class="logo">
-            <img src="asset/img/logo.svg" alt="" />
-            <h3>TCorner!</h3>
-        </a>
-        
-        <nav class="navbar">
-            <a class="home-link" href="#home">Home<span></span></a>
-            <a class="article-link" href="#articles">Articles<span></span></a>
-            <a class="about-link" href="#about">About<span></span></a>
-        </nav>
-        
-        <div class="btn-box">
-            <div class="toggle-switchmode">
-                <i class="uil uil-sun sun"></i>
-                <i class="uil uil-moon moon"></i>
-            </div>
-            <div class="toggle-openNav">
-                <i class="uil uil-bars toggleOpenBtn"></i>
-                <i class="uil uil-times toggleCloseBtn"></i>
-            </div>
+      <a href="#home" class="logo">
+        <img src="asset/img/logo.svg" alt="" />
+        <h3>TCorner!</h3>
+      </a>
+
+      <nav class="navbar">
+        <a class="home-link" href="#home">Home<span></span></a>
+        <a class="article-link" href="#articles">Articles<span></span></a>
+        <a class="about-link" href="#about">About<span></span></a>
+      </nav>
+
+      <div class="btn-box">
+        <div class="toggle-switchmode">
+          <i class="uil uil-sun sun"></i>
+          <i class="uil uil-moon moon"></i>
         </div>
+        <div class="toggle-openNav">
+          <i class="uil uil-bars toggleOpenBtn"></i>
+          <i class="uil uil-times toggleCloseBtn"></i>
+        </div>
+      </div>
     </header>
-    
+
     <section id="home">
-        <h1>
-            Let's share and find with
-            <span>TCorner!</span>
-        </h1>
-        <p>
-            Disini kamu bisa temukan semua informasi tentang berbagai hal yang
-            ditulis oleh mahasiswa Teknik Informatika ITS
-        </p>
+      <h1>
+        Let's share and find with
+        <span>TCorner!</span>
+      </h1>
+      <p>
+        Disini kamu bisa temukan semua informasi tentang berbagai hal yang
+        ditulis oleh mahasiswa Teknik Informatika ITS
+      </p>
     </section>
-    
+
     <section id="articles">
-        <div class="container-articles">
-            <h1>Articles</h1>
-            <div class="container-cards">
-                <div class="card">
-                    <h2>Mempelajari Dasar-Dasar <span>Desain</span> Bersama BMS</h2>
-                    <h4>oleh Sekar Ambar Arum</h4>
-                    <h3>Kata fotografi diambil dari paduan dua bahasa, yaitu “photography” dari bahasa Inggris dan bahasa Yunani, yaitu “photos” yang artinya cahaya serta “grafo” yang artinya melukis ...</h3>
-                    <a href="articles/design.html" class="read-more">
-                        <span>Read More</span>
-                        <div class="arrow"></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <h2>Mengenali Seni <span>Fotografi</span></h2>
-                    <h4>oleh Ilham Insan Wafi</h4>
-                    <h3>Kata fotografi diambil dari paduan dua bahasa, yaitu “photography” dari bahasa Inggris dan bahasa Yunani, yaitu “photos” yang artinya cahaya serta “grafo” yang artinya melukis. Secara paduan kata, dapat diartikan fotografi adalah sebuah proses ...</h3>
-                    <a href="articles/fotografi.html" class="read-more">
-                        <span>Read More</span>
-                        <div class="arrow"></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <h2>Wawasan <span>Jurnalistik</span> di BMS 2022</h2>
-                    <h4>oleh Gracetriana Survinta</h4>
-                    <h3>BMS (Basic Media Schooling) merupakan kegiatan berupa pelatihan dasar multimedia yang diselenggarakan oleh Departemen Medfo HMTC ITS. BMS sendiri membawa 5 materi yang sangat menarik dan berguna bagi para ...</h3>
-                    <a href="articles/jurnalistik.html" class="read-more">
-                        <span>Read More</span>
-                        <div class="arrow"></div>
-                    </a>
-                </div>  
-            </div>
-        </section>
-        
-        <section id="about">
-            <div class="container-about">
-                <h1>About Us.</h1>   
-                <h3>Website dengan <span>kumpulan berita</span> menarik yang 
-                    bisa kalian temukan dari rangkaian tulisan mahasiswa 
-                    <span>Teknik Informatika</span> ITS.</h3>
-                <p>TCorner merupakan sebuah website yang dibuat oleh kelompok artikel website 2 sebagai penugasan KPP Basic Media Schooling (BMS) 2022. Dalam website terdapat homepage, list artikel, dan about. Artikel-artikel yang terdapat pada website ini memiliki tema materi yang dipelajari selama BMS 2022. Materi yang diambil adalah desain, fotografi, dan jurnalistik.</p>
-                <div class="container-contact">         
-                    <div class="email">
-                        <img src="./asset/img/email-icon.svg">
-                        <h6>business.itscorner@gmail.com</h6>
-                    </div>
-                    <div class="instagram">
-                        <img src="./asset/img/instagram-icon.svg">
-                        <h6>ITSCORNER_OFFICIAL</h6>
-                    </div>
-                    <div class="telp">
-                        <img src="./asset/img/telpon-icon.svg">
-                        <h6>+62 858-7621-5954</h6>
-                    </div>
-                </div>
-            
-            
-            </div>
-            <div class="background-decoration-container">
-                <div class="rectangle"></div>
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <div class="circle3"></div>
-                <div class="circle4"></div>
-            </div>
+      <div class="container-articles">
+        <h1>Articles</h1>
+        <div class="container-cards">
+          <div class="card">
+            <h2>Mempelajari Dasar-Dasar <span>Desain</span> Bersama BMS</h2>
+            <h4>oleh Sekar Ambar Arum</h4>
+            <h3>
+              Kata fotografi diambil dari paduan dua bahasa, yaitu “photography”
+              dari bahasa Inggris dan bahasa Yunani, ...
+            </h3>
+            <a href="articles/design.html" class="read-more">
+              <span>Read More</span>
+              <div class="arrow"></div>
+            </a>
+          </div>
+          <div class="card">
+            <h2>Mengenali Seni <span>Fotografi</span></h2>
+            <h4>oleh Ilham Insan Wafi</h4>
+            <h3>
+              Kata fotografi diambil dari paduan dua bahasa, yaitu “photography”
+              dari bahasa Inggris dan bahasa Yunani, yaitu ...
+            </h3>
+            <a href="articles/fotografi.html" class="read-more">
+              <span>Read More</span>
+              <div class="arrow"></div>
+            </a>
+          </div>
+          <div class="card">
+            <h2>Wawasan <span>Jurnalistik</span> di BMS 2022</h2>
+            <h4>oleh Gracetriana Survinta</h4>
+            <h3>
+              BMS (Basic Media Schooling) merupakan kegiatan berupa pelatihan
+              dasar multimedia yang diselenggarakan oleh Departemen ...
+            </h3>
+            <a href="articles/jurnalistik.html" class="read-more">
+              <span>Read More</span>
+              <div class="arrow"></div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    
-                
-<script src="js/navbar.js"></script>
-</body>
+
+    <section id="about">
+      <div class="container-about">
+        <div class="container-stick">
+          <span class="stick"></span>
+          <div class="container-title-about">
+            <h1 class="about-us">About Us.</h1>
+            <h3>
+              Website dengan <span>kumpulan berita</span> menarik yang bisa
+              kalian temukan dari rangkaian tulisan mahasiswa
+              <span>Teknik Informatika</span> ITS.
+            </h3>
+          </div>
+        </div>
+        <p>
+          TCorner merupakan sebuah website yang dibuat oleh kelompok artikel
+          website 2 sebagai penugasan KPP Basic Media Schooling (BMS) 2022.
+          Dalam website ini terdapat homepage, list artikel, dan about.
+          Artikel-artikel yang terdapat pada website ini mengambil tema dari
+          materi-materi yang dipelajari selama BMS 2022 berupa desain,
+          fotografi, dan jurnalistik.
+        </p>
+        <div class="container-contact">
+          <div class="email">
+            <img src="./asset/img/email-icon.svg" />
+            <h6>business.tccorner@gmail.com</h6>
+          </div>
+          <div class="instagram">
+            <img src="./asset/img/instagram-icon.svg" />
+            <h6>TCCORNER_OFFICIAL</h6>
+          </div>
+          <div class="telp">
+            <img src="./asset/img/telpon-icon.svg" />
+            <h6>+62 858-7621-5954</h6>
+          </div>
+        </div>
+      </div>
+      <div class="background-decoration-container">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+      </div>
+    </section>
+
+    <script src="js/navbar.js"></script>
+  </body>
 </html>
-            
