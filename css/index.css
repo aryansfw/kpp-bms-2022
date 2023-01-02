@@ -185,41 +185,41 @@ body.light header .toggle-switchmode .moon {
 
 .circle1 {
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 30vw;
+  height: 30vw;
   border-radius: 50%;
-  left: -370px;
-  bottom: -30px;
+  left: -28vw;
+  bottom: -2vw;
   background: #fcc72a;
 }
 
 .circle2 {
   position: absolute;
-  width: 400px;
-  height: 200px;
+  width: 30vw;
+  height: 15vw;
   border-radius: 200px 200px 0 0;
-  left: -300px;
-  bottom: -30px;
+  left: -22.5vw;
+  bottom: -2vw;
   background: #313034;
 }
 
 .circle3 {
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 30vw;
+  height: 30vw;
   border-radius: 50%;
-  right: -370px;
-  bottom: -30px;
+  right: -28vw;
+  bottom: -2vw;
   background: #ff7ca5;
 }
 
 .circle4 {
   position: absolute;
-  width: 400px;
-  height: 200px;
+  width: 30vw;
+  height: 15vw;
   border-radius: 200px 200px 0 0;
-  right: -300px;
-  bottom: -30px;
+  right: -22.5vw;
+  bottom: -2vw;
   background: #ff407c;
 }
 
