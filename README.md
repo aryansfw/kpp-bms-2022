@@ -4,7 +4,7 @@ This repository is made for the final task of Basic Media Schooling 2022, an eve
 
 ## Result's Preview
 
-> Click this [link](https://yannnshafaw.github.io/kpp-bms-2022) to see deployed version
+> Click this [link](https://aryansfw.github.io/kpp-bms-2022) to see deployed version
 
 - Home Section
 ![home](https://user-images.githubusercontent.com/90663569/210125238-ecef8b41-1c63-4189-9003-f58c6a291459.png)
